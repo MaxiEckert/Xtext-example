@@ -1,0 +1,14 @@
+import "platform:/resource/TestDSL/src/test.repository"
+
+ExtensionInclusion e {
+	name n
+	description d
+	pointCut {
+		PointCut {
+			entityName e
+			placementStrategy ExternalCallPlacementStrategy {
+				matchingSignature test.repository#_ZUblIGDMEeih4d4_m53i9A
+			}
+		}		
+	}
+}

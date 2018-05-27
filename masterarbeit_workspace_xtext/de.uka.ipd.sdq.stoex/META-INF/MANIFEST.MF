@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.2
+Created-By: 1.8.0_45-b14 (Oracle Corporation)
+Bundle-SymbolicName: de.uka.ipd.sdq.stoex;singleton:=true
+Export-Package: de.uka.ipd.sdq.stoex,de.uka.ipd.sdq.stoex.impl; uses:=
+ "org.eclipse.emf.ecore,  de.uka.ipd.sdq.probfunction,  org.eclipse.em
+ f.ecore.impl,  org.eclipse.emf.common.notify,  de.uka.ipd.sdq.stoex",
+ de.uka.ipd.sdq.stoex.parser; uses:="de.uka.ipd.sdq.probfunction,  ant
+ lr,  de.uka.ipd.sdq.stoex",de.uka.ipd.sdq.stoex.util; uses:="org.ecli
+ pse.emf.ecore,  org.eclipse.emf.common.notify.impl,  org.eclipse.emf.
+ common.notify,  de.uka.ipd.sdq.stoex"
+Bundle-Name: %pluginName
+Bundle-Version: 2.3.0.201611171324
+Bundle-ClassPath: .
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.11.0",org.e
+ clipse.emf.ecore;visibility:="reexport";bundle-version="2.11.0",org.e
+ clipse.emf.cdo;visibility:="reexport";bundle-version="4.4.0",de.uka.i
+ pd.sdq.probfunction;visibility:="reexport";bundle-version="2.1.0",de.
+ uka.ipd.sdq.units;visibility:="reexport";bundle-version="2.1.0",org.a
+ ntlr.runtime;bundle-version="[3.2.0,3.3.0)";visibility:="reexport"
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: %providerName
+

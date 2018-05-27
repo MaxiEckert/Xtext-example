@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_qc_EwGAMEeiFUe0Oj6aoag" entityName="repo">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_WfsMp2DMEeih4d4_m53i9A">
+    <signatures__OperationInterface id="_ZUblIGDMEeih4d4_m53i9A"/>
+  </interfaces__Repository>
+</repository:Repository>

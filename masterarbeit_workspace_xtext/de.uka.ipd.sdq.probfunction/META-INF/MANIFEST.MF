@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.2
+Created-By: 1.8.0_45-b14 (Oracle Corporation)
+Bundle-SymbolicName: de.uka.ipd.sdq.probfunction;singleton:=true
+Export-Package: de.uka.ipd.sdq.probfunction,de.uka.ipd.sdq.probfunctio
+ n.impl,de.uka.ipd.sdq.probfunction.print,de.uka.ipd.sdq.probfunction.
+ util
+Bundle-Name: %pluginName
+Bundle-Version: 2.2.1.201611171324
+Bundle-ClassPath: .
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.11.0",org.e
+ clipse.emf.ecore;visibility:="reexport";bundle-version="2.11.0",org.e
+ clipse.emf.cdo;visibility:="reexport";bundle-version="4.4.0",de.uka.i
+ pd.sdq.units;visibility:="reexport";bundle-version="2.1.0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+

@@ -1,0 +1,13 @@
+
+ExtensionInclusion e {
+	name n
+	description d
+	pointCut {
+		PointCut {
+			entityName e
+			placementStrategy ExternalCallPlacementStrategy {
+				matchingSignature 
+			}
+		}		
+	}
+}

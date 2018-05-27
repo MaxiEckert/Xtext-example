@@ -1,0 +1,4 @@
+import "platform:/resource/TestDSL/src/test.repository"
+
+Hello A repo.iface.sig !
+
